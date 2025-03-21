@@ -1,0 +1,34 @@
+{
+  "name": "prediction-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -L server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iz1cK/prediction-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iz1cK/prediction-backend/issues"
+  },
+  "homepage": "https://github.com/Iz1cK/prediction-backend#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "http-status": "^1.5.2",
+    "jsonwebtoken": "^8.5.1",
+    "node-cron": "^3.0.1",
+    "node-fetch": "^3.2.6",
+    "nodemon": "^2.0.18",
+    "pg": "^8.7.3"
+  }
+}
